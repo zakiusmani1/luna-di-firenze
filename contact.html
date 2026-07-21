@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - Luna di Firenze</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <header>
+        <h1>Luna di Firenze</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about-us.html">About Us</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Contact Us</h1>
+            <p>If you have any questions or would like to make a reservation, please feel free to contact us:</p>
+            <address>
+                <p><strong>Luna di Firenze</strong></p>
+                <p>123 Main Street</p>
+                <p>Florence, Italy 50123</p>
+                <p>Phone: +39 055 123 4567</p>
+                <p>Email: info@lunadifirenze.com</p>
+            </address>
+        </section>
+        <section>
+            <h2>Reservation Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required min="12:00" max="22:00">
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" max="20" required>
+                <button type="submit">Submit Reservation</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
