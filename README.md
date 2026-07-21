@@ -28,6 +28,20 @@ It is my first project ever.
 
 ## 🛠️ Built With
 
-- HTML5
+- HTML5 on VSCode
 
-## 📂 Project Structure
+## 🚀 Future Improvements
+
+- Add CSS styling and responsive design
+- Add JavaScript interactivity
+- Add online reservation functionality
+- Add animations and improved user experience
+- Connect a backend for real restaurant features
+
+## 🎯 Purpose
+
+This project was created as part of my journey learning web development and building a portfolio of programming projects.
+
+---
+
+**Buon appetito! 🍝**
