@@ -14,7 +14,7 @@ It is my first project ever.
 
 - Homepage introducing the restaurant
 - Navigation between different pages
-- Italian food menu with categories:
+- Italian food menu with categories designed with CSS:
   - Starters
   - Pasta
   - Pizza
